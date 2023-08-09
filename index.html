@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles CSS  -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap" rel="stylesheet">
+    <title>Cosmos Web | Dev FJTR</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./img/menu.svg" alt="Close menu" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>            
+            <a href="#portafolio">Galeria</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head" id="inicio">
+            <h1 class="titulo">Aquí conseguiras los mejores expertos</h1>
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla.</p>
+        </div>
+    </header>
+    <main>
+    <!-- Sección de servicios -->
+        <section class="contenedor" id="servicios">
+            <h2 class="subtitulo">Nuestros servicios</h2>
+            <div class="contenedor-servicio">
+                <img src="./img/cosmo.jpg" alt="" class="img-cosmos">
+                <!-- Lista de los servicios -->
+                <div class="checklist-servicio">
+                    <!-- Servicio número 1 -->
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1.</span> Análisis Climatológico</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi delectus voluptatibus nulla. Ut rerum soluta odio odit, ducimus ipsum!</p>
+                    </div>
+                    <!-- Servicio número 2 -->
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2.</span> Estudios Astronómicos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi delectus voluptatibus nulla. Ut rerum soluta odio odit, ducimus ipsum!</p>
+                    </div>
+                    <!-- Servicio número 3 -->
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3.</span> Investigaciones Meteorológicas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi delectus voluptatibus nulla. Ut rerum soluta odio odit, ducimus ipsum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Sección de galeria -->
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="./img/moon1.jpg" alt="" class="img-galeria">
+                    <img src="./img/moon2.jpg" alt="" class="img-galeria">
+                    <img src="./img/moon3.jpg" alt="" class="img-galeria">
+                    <img src="./img/moon4.jpg" alt="" class="img-galeria">
+                    <img src="./img/moon5.jpg" alt="" class="img-galeria">
+                    <img src="./img/moon6.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <!-- Código para mostrar la imagen como modal con CSS y Javascript -->
+        <section class="imagen-light">
+            <img src="./img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </section>
+
+    <!-- Sección de Expertos -->
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en: </h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="./img/astronomos.jpg" alt="">
+                    <h3 class="n-expert">Astronomía</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./img/Meteorologo.png" alt="">
+                    <h3 class="n-expert">Meteorología</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./img/Climatologo.jpg" alt="">
+                    <h3 class="n-expert">Climatología</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Dev FJTR</h2>
+                <p>Somos expertos en la identificación de cualquier fenomeno</p>
+            </div>
+            <!-- Enlaces de redes sociales por medio de Iconos -->
+            <div class="social-media">
+                <a href="#" class="social-media-icon">
+                    <i class='bx bxl-facebook' ></i>
+                </a>
+
+                <a href="#" class="social-media-icon">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a href="#" class="social-media-icon">
+                    <i class='bx bxl-twitch'></i>
+                </a>
+
+                <a href="#" class="social-media-icon">
+                    <i class='bx bxl-github' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    
+    
+    <!-- Scripts  -->
+    <script src="./js/menu.js"></script>
+    <script src="./js/lightbox.js"></script>
+</body>
+</html>
